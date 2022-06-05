@@ -30,6 +30,13 @@ const BirthDaySection = () => {
 
     const [data, setData] = React.useState(birthdayDetailsData);
 
+    const clearAllData = () => {
+        setData([])
+    }
+
+    const addAllData = () => {
+        setData(birthdayDetailsData)
+    }
 
     return (
         <React.Fragment>
@@ -40,7 +47,7 @@ const BirthDaySection = () => {
                 <div className="col-md-4">
                     <div className="row">
                         <div className="col-md-12 birthdaySection">
-                            <h4>Upcoming Birthdays</h4>
+                            <h4>Upcoming Birthdays ...</h4>
                             <hr />
 
                             {
@@ -52,7 +59,12 @@ const BirthDaySection = () => {
 
                             <div className="row">
                                 <div className="col-md-12">
-                                    <button className="btn clearBtn"> Clear All</button>
+                                    <button className="btn clearBtn" onClick={clearAllData}> Clear All</button>
+                                </div>
+                            </div>
+                            <div className="row">
+                                <div className="col-md-12">
+                                    <button className="btn clearBtn" onClick={addAllData}> Add All</button>
                                 </div>
                             </div>
 
