@@ -8,7 +8,21 @@ const birthdayDetailsData = [
         name: "Sahil Rajput",
         birthDate: "22-04-1999",
         nextBirthDay: "30",
-        imagePath: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
+        imagePath: "https://images.pexels.com/photos/302743/pexels-photo-302743.jpeg"
+    },
+    {
+        id: 2,
+        name: "Shivani Sinduriya",
+        birthDate: "26-01-1998",
+        nextBirthDay: "456",
+        imagePath: "https://media.istockphoto.com/photos/mountain-landscape-picture-id517188688?k=20&m=517188688&s=612x612&w=0&h=i38qBm2P-6V4vZVEaMy_TaTEaoCMkYhvLCysE7yJQ5Q="
+    },
+    {
+        id: 3,
+        name: "Viru",
+        birthDate: "06-08-1999",
+        nextBirthDay: "85",
+        imagePath: "https://thumbs.dreamstime.com/b/grunge-heart-rainbow-color-lgbt-pride-symbol-vector-illustration-grunge-heart-rainbow-color-lgbt-pride-symbol-129392230.jpg"
     }
 ]
 
