@@ -1,13 +1,13 @@
 import React from "react"
 import "./birthDaySectionDetails.css"
 
-const BirthDaySectionDetails = ({ name, birthDate, nextBirthDay }) => {
+const BirthDaySectionDetails = ({ name, birthDate, nextBirthDay, imagePath }) => {
     return (
         <React.Fragment>
             <div className="birthDaySectionDetails">
                 <div className="row">
                     <div className="col-md-4 imageSection">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt={name} className="birthDayImageSection" />
+                        <img src={imagePath} alt={name} className="birthDayImageSection" />
                     </div>
                     <div className="col-md-8 birthdayDetails">
                         <div className="row">

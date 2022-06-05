@@ -7,7 +7,8 @@ const birthdayDetailsData = [
         id: 1,
         name: "Sahil Rajput",
         birthDate: "22-04-1999",
-        nextBirthDay: "30"
+        nextBirthDay: "30",
+        imagePath: "https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg"
     }
 ]
 
@@ -30,8 +31,8 @@ const BirthDaySection = () => {
 
                             {
                                 data.map((birthData) => {
-                                    const { id, name, birthDate, nextBirthDay } = birthData
-                                    return <BirthDaySectionDetails key={id} name={name} birthDate={birthDate} nextBirthDay={nextBirthDay} />
+                                    const { id, name, birthDate, nextBirthDay, imagePath } = birthData
+                                    return <BirthDaySectionDetails key={id} name={name} birthDate={birthDate} nextBirthDay={nextBirthDay} imagePath={imagePath} />
                                 })
                             }
 
