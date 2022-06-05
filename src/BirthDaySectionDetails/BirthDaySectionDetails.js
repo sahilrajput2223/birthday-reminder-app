@@ -1,20 +1,20 @@
 import React from "react"
 import "./birthDaySectionDetails.css"
 
-const BirthDaySectionDetails = () => {
+const BirthDaySectionDetails = ({ name, birthDate, nextBirthDay }) => {
     return (
         <React.Fragment>
             <div className="birthDaySectionDetails">
                 <div className="row">
                     <div className="col-md-4 imageSection">
-                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt="sdflkfjskdnlk" className="birthDayImageSection" />
+                        <img src="https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg" alt={name} className="birthDayImageSection" />
                     </div>
                     <div className="col-md-8 birthdayDetails">
                         <div className="row">
                             <div className="col-md-12">
                                 <p className="name">
                                     <b>
-                                        Sahil Rajput
+                                        {name}
                                     </b>
                                 </p>
                             </div>
@@ -22,12 +22,12 @@ const BirthDaySectionDetails = () => {
                         <div className="row">
                             <div className="col-md-3">
                                 <p className="date">
-                                    22-04-1999
+                                    {birthDate}
                                 </p>
                             </div>
                             <div className="col-md-9">
                                 <p className="date" style={{ float: "right", marginRight: "10px" }}>
-                                    Next Birth Day in 25 Days
+                                    Next Birth Day in {nextBirthDay} Days
                                 </p>
                             </div>
                         </div>
