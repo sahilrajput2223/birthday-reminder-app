@@ -1,0 +1,36 @@
+.birthDayImageSection {
+    height: 100px;
+    width: 100px;
+    border-radius: 100px;
+}
+
+.imageSection {
+    margin: auto;
+}
+
+.birthdayDetails {
+    padding: 0;
+    margin-top: 10px;
+}
+
+.name {
+    font-size: large;
+    font-family: monospace;
+    font-style: italic;
+    color: black;
+    padding: 0%;
+    margin-bottom: 8px;
+    margin-top: 10px;
+}
+
+.date {
+    font-size: smaller;
+    font-style: italic;
+    font-family: monospace;
+    padding: 0%;
+}
+
+.birthDaySectionDetails {
+    margin: auto;
+    margin-bottom: 10px;
+}
